@@ -1,0 +1,259 @@
+*{ 
+    margin: 0;
+    padding :0;
+    
+    
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #2F375B;
+    margin-top: 10px;
+}
+.image {
+    transition: 1s;
+    width : 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: brightness(0.7);
+}
+.image:hover {  border-radius: 20px;
+    filter: brightness(1);
+}
+.image1 {width : 50px;}
+nav ul {
+    padding: 0px;
+    margin: 0px 0px 0px -30px;
+    list-style-type: none;
+   
+}
+nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+  
+}
+nav li a{color: cornsilk; text-decoration: none;}
+nav li :hover{color:darkkhaki;}
+.partie {background-color:#2F375B;
+        color: rgb(241, 234, 235);
+       padding-bottom: 60px;
+      
+    } 
+.piedpage {background-color:  rgb(88, 83, 92);color: rgb(228, 231, 37);
+    padding-bottom : 90px;
+    padding-left: 30px;
+    border-top: #fdfdfd;
+} 
+.logo{ display: flex;
+    justify-content:center; 
+    transform: scale(1.2); 
+  
+ } 
+
+
+ h1{ display: flex;
+     justify-content: center;
+    color: firebrick;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     word-spacing: 4px; letter-spacing: 4px;
+     
+}
+.image1{ 
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    justify-content: space-between;
+} 
+.image1:hover{
+    border-radius: 20px;
+    transform: rotate(360deg);
+
+}
+
+h1:hover {color: burlywood;
+    cursor: pointer;
+}
+.partfooter{ display: flex;
+    justify-content: space-between; 
+    padding-right: 10px;
+}
+    .imgs{
+        padding-left: 30px;
+    }
+/*-----------------------------------------------Project----------------------*/
+
+.projects{
+    background-color:  #99C5D2;
+    color: black;
+    justify-content: center;
+    
+}
+.enteteproject {  display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;   
+    margin-top: 10px;
+    background-color:#607993;
+}
+
+    .formproject{
+        display: flex;
+       background-color: #99C5D2;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+       padding-top: 40PX;
+        height:auto
+    }
+    .formproject1{
+        background-color:#2F375B;       
+        padding-bottom: 30px;
+        margin-bottom: 30px;        
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+       
+       
+    }
+    .formproject2{
+        background-color:midnightblue;       
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+    }
+    .formproject3{
+        background-color:midnightblue;       
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+       
+    }
+    .formproject4{
+        background-color:midnightblue;       
+        padding-bottom: 30px;
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+    }
+    .formproject5{
+        background-color:midnightblue;       
+        padding-bottom: 30px;
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+       
+    }
+    .formproject6{
+        background-color:midnightblue;       
+        padding-bottom: 30px;
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#c9cc13 ;      
+        width: 300px;
+        height:440px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px ;
+       box-shadow:black;
+       text-align: center;
+       
+    }
+    .formproject p{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .formproject h2{
+        color: rgb(214, 187, 33);
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+   
+    .democode{
+        display: flex;
+       background-color: rgb(236, 10, 217);
+        justify-content: space-between;
+              
+    }
+    h1:hover{
+        color: rgb(202, 151, 20);
+       
+    }
+   /*-----------------------------------------------Project----------------------*/
+   .principale{
+       
+    background-color:#2F375B; 
+    padding-bottom: 30px;
+   }
+   .donnee{
+    background-color:#2F375B; 
+    width: 300px;
+    height:450px;
+    margin-top: 30px;
+    margin-left: 530px;    
+    border-width: 5px;
+    border-color: #fdfdfd;
+    color: #fdfdfd;
+    
+
+   }
+   .donnee1{
+    padding-left: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .donnee1 input{
+    width: 200px; height: 25px;
+    border-radius: 5px;
+   }
+   .donnee1 button:hover{
+       background-color: bisque;
+       color: black;
+   }
